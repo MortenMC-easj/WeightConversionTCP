@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeightConversion.Library\WeightConversion.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Converter">
+      <HintPath>..\..\..\Converter\Converter\bin\Debug\netcoreapp2.1\Converter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
